@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid grey;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: rgb(226, 222, 222);
+}
+th{
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: rgb(97, 95, 95);
+}
+td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: rgb(182, 175, 175);
+}
